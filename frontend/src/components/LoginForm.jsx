@@ -113,14 +113,14 @@ export default function LoginForm({ onLoginSuccess }) {
             onClick={() => handleFillDemo('ADMIN001', 'admin123')}
             className="btn btn-secondary btn-sm"
           >
-            🔑 Admin: ADMIN001
+             Admin: ADMIN001
           </button>
           <button
             type="button"
             onClick={() => handleFillDemo('MEM001', 'member123')}
             className="btn btn-secondary btn-sm"
           >
-            👤 Member: MEM001
+             Member: MEM001
           </button>
         </div>
       </div>
