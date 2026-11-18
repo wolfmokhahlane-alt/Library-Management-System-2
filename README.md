@@ -145,14 +145,14 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 | Feature / Action | Admin (`ADMIN001`) | Member (`MEM001` / `MEM002`) | Guest / Unauthenticated |
 | :--- | :---: | :---: | :---: |
-| **View Dashboard & Availability** | ✅ | ✅ | ✅ |
-| **View Transaction History Log** | ✅ | ✅ | ✅ |
-| **Borrow Books (`BORROW`)** | ✅ (for any member) | ✅ (for self only) | ❌ (Login required) |
-| **Restock Inventory (`ADD`)** | ✅ | ❌ | ❌ |
-| **View Book Management Nav Link** | ✅ | ❌ | ❌ |
-| **Add / Edit / Delete Books** | ✅ | ❌ (Read-only catalogue) | ❌ |
-| **View User Management Nav Link** | ✅ | ❌ | ❌ |
-| **Admin User Directory & Actions** | ✅ | ❌ (Profile view only) | ❌ (Login form only) |
+| **View Dashboard & Availability** | Yes | Yes | Yes |
+| **View Transaction History Log** | Yes | Yes | Yes |
+| **Borrow Books (`BORROW`)** | Yes (for any member) | Yes (for self only) | No (Login required) |
+| **Restock Inventory (`ADD`)** | Yes | No | No |
+| **View Book Management Nav Link** | Yes | No | No |
+| **Add / Edit / Delete Books** | Yes | No (Read-only catalogue) | No |
+| **View User Management Nav Link** | Yes | No | No |
+| **Admin User Directory & Actions** | Yes | No (Profile view only) | No (Login form only) |
 | **Backend Route Protection** | Headers: `x-user-role: Admin` | Returns HTTP `403` Forbidden | Returns HTTP `403` Forbidden |
 
 ### Sample Books Included in Seed Data
