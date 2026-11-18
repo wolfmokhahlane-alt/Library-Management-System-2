@@ -215,12 +215,12 @@ export default function Dashboard() {
 
         {loading ? (
           <div className="empty-state">
-            <div className="empty-state-icon">⏳</div>
+            <div className="empty-state-icon"></div>
             <p>Loading library catalogue...</p>
           </div>
         ) : filteredBooks.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-state-icon">📚</div>
+            <div className="empty-state-icon"></div>
             <p>No books match your search or filter.</p>
           </div>
         ) : (
@@ -265,7 +265,7 @@ export default function Dashboard() {
                           </span>
                         ) : isLowStock ? (
                           <span className="badge badge-low-stock">
-                            <span style={{ fontSize: '0.9rem' }}>⚠️</span> Low Stock (&lt; 2)
+                            <span style={{ fontSize: '0.9rem' }}></span> Low Stock (&lt; 2)
                           </span>
                         ) : (
                           <span className="badge badge-in-stock">
