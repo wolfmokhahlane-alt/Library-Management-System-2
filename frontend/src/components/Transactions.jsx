@@ -244,7 +244,7 @@ export default function Transactions() {
             className={`tab-btn ${activeTab === 'BORROW' ? 'active' : ''}`}
             onClick={() => { setActiveTab('BORROW'); setAlert({ type: '', message: '' }); }}
           >
-            <span style={{ marginRight: '0.5rem' }}>📖</span> Borrow Book (Deduct Stock)
+            <span style={{ marginRight: '0.5rem' }}></span> Borrow Book (Deduct Stock)
           </button>
 
           {/* Restock Tab - Only visible to Admin */}
