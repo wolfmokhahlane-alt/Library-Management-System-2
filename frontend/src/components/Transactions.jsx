@@ -435,12 +435,12 @@ export default function Transactions() {
 
         {loading ? (
           <div className="empty-state">
-            <div className="empty-state-icon">⏳</div>
+            <div className="empty-state-icon"></div>
             <p>Loading transaction history...</p>
           </div>
         ) : filteredHistory.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-state-icon">📝</div>
+            <div className="empty-state-icon"></div>
             <p>No transaction history found for selected filter.</p>
           </div>
         ) : (
