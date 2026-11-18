@@ -253,11 +253,11 @@ export default function Transactions() {
               className={`tab-btn ${activeTab === 'ADD' ? 'active' : ''}`}
               onClick={() => { setActiveTab('ADD'); setAlert({ type: '', message: '' }); }}
             >
-              <span style={{ marginRight: '0.5rem' }}>📦</span> Restock Inventory (Admin Only)
+              <span style={{ marginRight: '0.5rem' }}></span> Restock Inventory (Admin Only)
             </button>
           ) : (
             <div style={{ marginLeft: 'auto', alignSelf: 'center', fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-              🔒 Restocking restricted to Admins
+               Restocking restricted to Admins
             </div>
           )}
         </div>
