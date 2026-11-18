@@ -5,7 +5,7 @@ A full-stack, responsive, and robust Library Management System built with a **Re
 
 ---
 
-## 📁 Project Architecture & Folder Structure
+##  Project Architecture & Folder Structure
 
 ```text
 Library management/
@@ -57,7 +57,7 @@ Library management/
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend:**
   - React 18 (JSX, Functional Components)
@@ -76,7 +76,7 @@ Library management/
 
 ---
 
-## 🗄️ Database Setup (XAMPP phpMyAdmin)
+##  Database Setup (XAMPP phpMyAdmin)
 
 The project is preconfigured with standard XAMPP defaults:
 - **Host:** `localhost` (Port `3306`)
@@ -100,7 +100,7 @@ When you start the backend server with MySQL running in XAMPP, the backend's bui
 
 ---
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### 1. Start the Backend API
 Open a terminal in the project root:
@@ -128,7 +128,7 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ---
 
-## 👥 Pre-seeded Test Accounts & Sample Books
+##  Pre-seeded Test Accounts & Sample Books
 
 ### User Credentials for Testing
 | Name | Membership ID | Role | Password | Access Level |
@@ -141,7 +141,7 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ---
 
-## 🛡️ Role-Based Access Control (RBAC) Matrix
+##  Role-Based Access Control (RBAC) Matrix
 
 | Feature / Action | Admin (`ADMIN001`) | Member (`MEM001` / `MEM002`) | Guest / Unauthenticated |
 | :--- | :---: | :---: | :---: |
@@ -164,7 +164,7 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ---
 
-## 📄 Key Features & Page Views
+##  Key Features & Page Views
 
 ### 1. Dashboard (`/`)
 - **Key Metrics Overview:** Total Book Titles, Total Available Copies, Low Stock Alerts Count, Registered Members.
@@ -194,7 +194,7 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ---
 
-## 📡 RESTful API Reference
+##  RESTful API Reference
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
